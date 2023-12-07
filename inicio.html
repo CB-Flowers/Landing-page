@@ -42,42 +42,48 @@
         </div>
     </nav>
     <div class="banner">
-        <div class="container">
-            <div class="row">
-                <div class="grid-lg-1">
-                    <br><br>
-                    <div class="social-media">
-                        <h6> FOLLOW US </h6>
-                        <ul>
-                            <li><a href="#" target="_blank" rel="noreferrer"> <i class="fab fa-linkedin"></i> </a></li>
-                            <li><a href="#" target="_blank" rel="noreferrer"> <i class="fab fa-twitter"></i> </a></li>
-                            <li><a href="#" target="_blank" rel="noreferrer"> <i class="fab fa-facebook-f"></i> </a>
-                            </li>
-                            <li><a href="#" target="_blank" rel="noreferrer"> <i class="fab fa-instagram"></i> </a></li>
-                            <li><a href="#" target="_blank" rel="noreferrer"> <i class="fab fa-youtube"></i> </a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="grid-lg-3">
-                    <div class="text-left text-white">
-                        <br><br><br><br><br><br><br><br>
-                        <h4>Luxury</h4>
-                        <h1>Real Estate</h1>
+        <section class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="grid-lg-1">
                         <br><br>
-                        <div class="text-left">
-                            <button class="button-section-white"><i class="fas fa-arrow-right"></i>
-                                &nbsp;&nbsp;&nbsp;&nbsp;View all properties
-                            </button>
+                        <div class="social-media">
+                            <h6> FOLLOW US </h6>
+                            <ul>
+                                <li><a href="#" target="_blank" rel="noreferrer"> <i class="fab fa-linkedin"></i> </a>
+                                </li>
+                                <li><a href="#" target="_blank" rel="noreferrer"> <i class="fab fa-twitter"></i> </a>
+                                </li>
+                                <li><a href="#" target="_blank" rel="noreferrer"> <i class="fab fa-facebook-f"></i> </a>
+                                </li>
+                                <li><a href="#" target="_blank" rel="noreferrer"> <i class="fab fa-instagram"></i> </a>
+                                </li>
+                                <li><a href="#" target="_blank" rel="noreferrer"> <i class="fab fa-youtube"></i> </a>
+                                </li>
+                            </ul>
                         </div>
                     </div>
-                </div>
-                <div class="grid-lg-2">
-                </div>
-                <div class="grid-lg-4">
-                    <input class="header-input text-white" placeholder="Ex. name@mail.com" type="text">
+                    <div class="grid-lg-3">
+                        <div class="text-left text-white">
+                            <br><br><br><br><br><br><br><br>
+                            <h4>Luxury</h4>
+                            <h1>Real Estate</h1>
+                            <br><br>
+                            <div class="text-left">
+                                <button class="button-section-white"><i class="fas fa-arrow-right"></i>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;View all properties
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid-lg-2">
+                    </div>
+                    <div class="grid-lg-4">
+                        <input class="header-input text-white" placeholder="Ex. name@mail.com" type="text">
+                    </div>
                 </div>
             </div>
-        </div>
+        </section>
     </div>
 </section>
 
@@ -96,7 +102,7 @@
                         </div>
 
                     </div>
-                    <div class="grid-all grid-sm-3 grid-md-3 grid-lg-3 contenedor-imagen">
+                    <div class="grid-sm-3 grid-md-3 grid-lg-3 contenedor-imagen">
                         <img class="img-gallery" src="images/gallery-1-2.jpg">
                         <div class="overlay">
                             <h3 class="title text-white">Germany</h3>
@@ -412,7 +418,7 @@
 
 <script>
     let prevScrollpos = window.pageYOffset;
-    window.onscroll = function() {
+    window.onscroll = function () {
         let currentScrollPos = window.pageYOffset;
         if (prevScrollpos > currentScrollPos) {
             document.querySelector("nav").style.top = "0";
